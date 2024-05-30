@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-30T05:45:20.190Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="vDGXOIGA6EAWXrI2y9FA" version="24.4.10" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-30T06:02:07.051Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="vF1RA2rljLXWNB03gFrG" version="24.4.10" type="github">
   <diagram name="第 1 页" id="qdy48YgYZ8bxk8exXK6j">
     <mxGraphModel dx="1687" dy="878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -114,8 +114,67 @@
         <mxCell id="VyWWFVKn5zqQz8EPEGkm-41" value="三方子系统" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="204" y="960" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="VyWWFVKn5zqQz8EPEGkm-45" value="对于数据源进行的属性下发，如果三方子系统接口可以实时返回属性下发成功失败的结果；那么立即发送事件给IOT更新属性值。如果不能同步获取到结果，需额外订阅三方子系统消息，接收到消息后，再发送事件给IOT" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.rectCallout;dx=30;dy=15;boundedLbl=1;" vertex="1" parent="1">
+        <mxCell id="VyWWFVKn5zqQz8EPEGkm-45" value="对于数据源进行的属性下发，如果三方子系统接口可以实时返回属性下发成功失败的结果；那么立即发送事件给IOT更新属性值。如果不能同步获取到结果，需额外订阅三方子系统消息，接收到消息后，再发送事件给IOT。" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.rectCallout;dx=30;dy=15;boundedLbl=1;" vertex="1" parent="1">
           <mxGeometry x="660" y="470" width="160" height="185" as="geometry" />
+        </mxCell>
+        <mxCell id="VyWWFVKn5zqQz8EPEGkm-46" value="对于IoT通信到edge的属性调用，这些设备并不是再数据源做的映射，而是在edge做了关联关系映射。其拓扑关系见图②。" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.rectCallout;dx=60;dy=15;boundedLbl=1;rotation=0;verticalAlign=middle;flipV=0;flipH=1;" vertex="1" parent="1">
+          <mxGeometry x="27" y="610" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="VyWWFVKn5zqQz8EPEGkm-49" value="图②" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="908" y="1030" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VyWWFVKn5zqQz8EPEGkm-50" value="图①" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="389" y="1030" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VyWWFVKn5zqQz8EPEGkm-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="VyWWFVKn5zqQz8EPEGkm-56" target="VyWWFVKn5zqQz8EPEGkm-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VyWWFVKn5zqQz8EPEGkm-67" value="子设备" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" connectable="0" parent="VyWWFVKn5zqQz8EPEGkm-62">
+          <mxGeometry x="-0.3118" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VyWWFVKn5zqQz8EPEGkm-56" value="网关设备" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="873" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VyWWFVKn5zqQz8EPEGkm-57" value="子设备3" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1013" y="950" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VyWWFVKn5zqQz8EPEGkm-58" value="子设备2" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="873" y="950" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VyWWFVKn5zqQz8EPEGkm-59" value="子设备1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="730" y="950" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VyWWFVKn5zqQz8EPEGkm-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VyWWFVKn5zqQz8EPEGkm-60" target="VyWWFVKn5zqQz8EPEGkm-59">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="933" y="920" />
+              <mxPoint x="790" y="920" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VyWWFVKn5zqQz8EPEGkm-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VyWWFVKn5zqQz8EPEGkm-60" target="VyWWFVKn5zqQz8EPEGkm-57">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="933" y="920" />
+              <mxPoint x="1073" y="920" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VyWWFVKn5zqQz8EPEGkm-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="VyWWFVKn5zqQz8EPEGkm-60" target="VyWWFVKn5zqQz8EPEGkm-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VyWWFVKn5zqQz8EPEGkm-68" value="子设备" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" connectable="0" parent="VyWWFVKn5zqQz8EPEGkm-65">
+          <mxGeometry x="-0.5059" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VyWWFVKn5zqQz8EPEGkm-60" value="子系统设备" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="873" y="820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VyWWFVKn5zqQz8EPEGkm-66" value="因为实际下发服务到设备中心时，产品ID和设备ID使用的均是子系统设备；所以物模型服务和属性实际是配置到子系统产品上。" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.rectCallout;dx=30;dy=15;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="1013" y="740" width="160" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
