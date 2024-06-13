@@ -1,20 +1,20 @@
-<mxfile host="app.diagrams.net" modified="2024-06-13T05:32:48.939Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="LxYwQV-rFKwV8Gl4U1Ko" version="24.5.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-13T05:34:10.026Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="_3hbyXF-NzhOmJDpMiBf" version="24.5.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="3217" dy="2412" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1624" dy="1583" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="DSE0VVEkv3fst9EGCnOD-71" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;resizable=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-3">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="790" y="-20" as="targetPoint" />
+            <mxPoint x="795" y="-30" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-3" value="数据编排预览" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="730" y="-100" width="120" height="40" as="geometry" />
+          <mxGeometry x="735" y="-110" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="DSE0VVEkv3fst9EGCnOD-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;resizable=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="DSE0VVEkv3fst9EGCnOD-63">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="790" y="240" as="sourcePoint" />
+            <mxPoint x="795" y="230" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="DSE0VVEkv3fst9EGCnOD-65" value="是，转换参数格式" style="edgeLabel;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;fillColor=none;gradientColor=none;" vertex="1" connectable="0" parent="DSE0VVEkv3fst9EGCnOD-64">
@@ -32,7 +32,7 @@
           <mxGeometry x="124" y="-150" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DSE0VVEkv3fst9EGCnOD-12" value="数据编排预览流程" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="730" y="-150" width="120" height="30" as="geometry" />
+          <mxGeometry x="735" y="-160" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DSE0VVEkv3fst9EGCnOD-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DSE0VVEkv3fst9EGCnOD-16" target="DSE0VVEkv3fst9EGCnOD-19">
           <mxGeometry relative="1" as="geometry" />
@@ -67,19 +67,16 @@
         <mxCell id="DSE0VVEkv3fst9EGCnOD-20" value="创建对应的业务模型或服务" style="whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="370" y="80" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DSE0VVEkv3fst9EGCnOD-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="140" y="760" as="sourcePoint" />
-            <mxPoint x="190" y="920" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="DSE0VVEkv3fst9EGCnOD-30" value="调用数据编排站点接口" style="edgeLabel;align=center;verticalAlign=middle;resizable=0;fontSize=9;labelPosition=center;verticalLabelPosition=middle;" vertex="1" connectable="0" parent="DSE0VVEkv3fst9EGCnOD-29">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint y="55" as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="DSE0VVEkv3fst9EGCnOD-28" value="注册该服务到数据编排（public.data_arrange_data_source表）&amp;nbsp; 出入参、枚举等" style="whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="70" y="920" width="236" height="70" as="geometry" />
+          <mxGeometry x="75.75" y="920" width="236" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="DSE0VVEkv3fst9EGCnOD-83" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;resizable=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DSE0VVEkv3fst9EGCnOD-32" target="DSE0VVEkv3fst9EGCnOD-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DSE0VVEkv3fst9EGCnOD-84" value="&lt;span style=&quot;font-size: 9px;&quot;&gt;调用数据编排站点接口&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;fillColor=none;gradientColor=none;" vertex="1" connectable="0" parent="DSE0VVEkv3fst9EGCnOD-83">
+          <mxGeometry x="-0.1573" y="-2" relative="1" as="geometry">
+            <mxPoint x="2" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="DSE0VVEkv3fst9EGCnOD-32" value="在数据管理已定义了消费端，需要根据该标准事件定义表结构和创建表" style="whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="92" y="750" width="204" height="60" as="geometry" />
@@ -138,13 +135,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DSE0VVEkv3fst9EGCnOD-63" value="调用数据管理的统一分页接口" style="whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="700" y="320" width="180" height="60" as="geometry" />
+          <mxGeometry x="705" y="310" width="180" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DSE0VVEkv3fst9EGCnOD-66" value="查询存储好的数据" style="whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="730" y="450" width="120" height="60" as="geometry" />
+          <mxGeometry x="735" y="440" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DSE0VVEkv3fst9EGCnOD-68" value="查询三方接口，返回信息" style="whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="970" y="160" width="200" height="60" as="geometry" />
+          <mxGeometry x="975" y="150" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DSE0VVEkv3fst9EGCnOD-80" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;resizable=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DSE0VVEkv3fst9EGCnOD-74" target="DSE0VVEkv3fst9EGCnOD-68">
           <mxGeometry relative="1" as="geometry" />
@@ -155,7 +152,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="DSE0VVEkv3fst9EGCnOD-74" value="该服务类型是否开启了存储规则" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="687.5" y="130" width="205" height="120" as="geometry" />
+          <mxGeometry x="692.5" y="120" width="205" height="120" as="geometry" />
         </mxCell>
         <mxCell id="DSE0VVEkv3fst9EGCnOD-77" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;resizable=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DSE0VVEkv3fst9EGCnOD-75" target="DSE0VVEkv3fst9EGCnOD-36">
           <mxGeometry relative="1" as="geometry" />
@@ -172,7 +169,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="DSE0VVEkv3fst9EGCnOD-78" value="根据注册的接口路径信息，查询到数据源对应的标准接口上" style="whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="675" y="-20" width="230" height="60" as="geometry" />
+          <mxGeometry x="680" y="-30" width="230" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
