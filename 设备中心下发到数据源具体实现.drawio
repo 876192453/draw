@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.16">
   <diagram name="第 1 页" id="quvkMajcy-c9vJRq_4t7">
-    <mxGraphModel dx="2876" dy="1066" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3217" dy="1243" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -195,6 +195,42 @@
             <mxPoint x="390" y="509.41" as="sourcePoint" />
             <mxPoint x="910" y="509" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="VQlRSz_rKZV5IowjKnvW-59" value="业务侧" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="880" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VQlRSz_rKZV5IowjKnvW-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VQlRSz_rKZV5IowjKnvW-60" target="VQlRSz_rKZV5IowjKnvW-61">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1215" y="130" />
+              <mxPoint x="1215" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VQlRSz_rKZV5IowjKnvW-63" value="HTTP协议应用" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VQlRSz_rKZV5IowjKnvW-62">
+          <mxGeometry x="-0.1857" y="5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VQlRSz_rKZV5IowjKnvW-60" value="c3Api" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="10" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VQlRSz_rKZV5IowjKnvW-61" value="edge" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="150" width="520" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VQlRSz_rKZV5IowjKnvW-69" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VQlRSz_rKZV5IowjKnvW-64" target="VQlRSz_rKZV5IowjKnvW-61">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1440" y="110" />
+              <mxPoint x="1360" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VQlRSz_rKZV5IowjKnvW-64" value="达实物联网关" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1330" y="10" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VQlRSz_rKZV5IowjKnvW-70" value="mqtt" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1405" y="88" width="50" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
