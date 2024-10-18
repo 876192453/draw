@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.16">
   <diagram name="第 1 页" id="quvkMajcy-c9vJRq_4t7">
-    <mxGraphModel dx="4014" dy="2827" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2620" dy="2102" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -221,7 +221,7 @@
             <mxPoint x="1554.72" y="315" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="VQlRSz_rKZV5IowjKnvW-73" value="mqtt协议" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VQlRSz_rKZV5IowjKnvW-72">
+        <mxCell id="VQlRSz_rKZV5IowjKnvW-73" value="Mqtt协议" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VQlRSz_rKZV5IowjKnvW-72">
           <mxGeometry x="-0.0722" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
