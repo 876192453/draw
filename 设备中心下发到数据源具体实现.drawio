@@ -233,7 +233,7 @@
           <mxGeometry x="1290" y="10" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VQlRSz_rKZV5IowjKnvW-74" value="IoT" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1100" y="390" width="360" height="60" as="geometry" />
+          <mxGeometry x="1100" y="390" width="650" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VQlRSz_rKZV5IowjKnvW-75" value="c3驱动（应用）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1100" y="155" width="180" height="65" as="geometry" />
@@ -249,17 +249,36 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="VQlRSz_rKZV5IowjKnvW-88" value="Mqtt" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VQlRSz_rKZV5IowjKnvW-78">
+          <mxGeometry x="-0.1133" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="VQlRSz_rKZV5IowjKnvW-77" value="找到设备绑定的IoT设备编码" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1125" y="270" width="310" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VQlRSz_rKZV5IowjKnvW-79" value="转发为业务事件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1100" y="450" width="120" height="60" as="geometry" />
+          <mxGeometry x="1100" y="450" width="240" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VQlRSz_rKZV5IowjKnvW-80" value="记录设备事件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1220" y="450" width="120" height="60" as="geometry" />
+          <mxGeometry x="1340" y="450" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VQlRSz_rKZV5IowjKnvW-81" value="将属性状态或者设备状态写值到设备上" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1340" y="450" width="120" height="60" as="geometry" />
+          <mxGeometry x="1540" y="450" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VQlRSz_rKZV5IowjKnvW-84" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VQlRSz_rKZV5IowjKnvW-82" target="VQlRSz_rKZV5IowjKnvW-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VQlRSz_rKZV5IowjKnvW-82" value="C3Api" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1610" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VQlRSz_rKZV5IowjKnvW-83" value="数据源提供开放接口" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1610" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VQlRSz_rKZV5IowjKnvW-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VQlRSz_rKZV5IowjKnvW-83">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1670" y="380" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
