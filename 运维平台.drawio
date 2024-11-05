@@ -94,22 +94,22 @@
         <mxCell id="NsiCEdH6IEj7lJ5fYggF-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#0B4D6A;" edge="1" parent="1" source="NsiCEdH6IEj7lJ5fYggF-29" target="NsiCEdH6IEj7lJ5fYggF-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NsiCEdH6IEj7lJ5fYggF-29" value="采集数据处理层（实时告警、数据分组内聚）" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#B09500;fillColor=#e3c800;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="NsiCEdH6IEj7lJ5fYggF-29" value="采集数据处理层（实时告警、数据分组内聚）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
           <mxGeometry x="40" y="690" width="390" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NsiCEdH6IEj7lJ5fYggF-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#0B4D6A;" edge="1" parent="1" source="NsiCEdH6IEj7lJ5fYggF-30" target="NsiCEdH6IEj7lJ5fYggF-34">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NsiCEdH6IEj7lJ5fYggF-30" value="采集数据存储层" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#B09500;fontColor=#000000;fillColor=#e3c800;" vertex="1" parent="1">
+        <mxCell id="NsiCEdH6IEj7lJ5fYggF-30" value="采集数据存储层" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#b46504;fillColor=#fad7ac;" vertex="1" parent="1">
           <mxGeometry x="40" y="770" width="390" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="NsiCEdH6IEj7lJ5fYggF-33" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#B09500;fontColor=#000000;fillColor=#e3c800;" vertex="1" parent="1">
+        <mxCell id="NsiCEdH6IEj7lJ5fYggF-33" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#b46504;fillColor=#fad7ac;" vertex="1" parent="1">
           <mxGeometry x="40" y="910" width="390" height="110" as="geometry" />
         </mxCell>
         <mxCell id="NsiCEdH6IEj7lJ5fYggF-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#0B4D6A;" edge="1" parent="1" source="NsiCEdH6IEj7lJ5fYggF-34" target="NsiCEdH6IEj7lJ5fYggF-33">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NsiCEdH6IEj7lJ5fYggF-34" value="存量数据处理（可视化、存量数据告警）" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#B09500;fontColor=#000000;fillColor=#e3c800;" vertex="1" parent="1">
+        <mxCell id="NsiCEdH6IEj7lJ5fYggF-34" value="存量数据处理（可视化、存量数据告警）" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#b46504;fillColor=#fad7ac;" vertex="1" parent="1">
           <mxGeometry x="40" y="840" width="390" height="50" as="geometry" />
         </mxCell>
         <mxCell id="NsiCEdH6IEj7lJ5fYggF-35" value="展示层" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
