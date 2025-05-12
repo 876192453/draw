@@ -5,13 +5,13 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="6XtA9i1KnXENSngNYOu7-1" value="基础应用" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="100" y="250" width="120" height="60" as="geometry" />
+          <mxGeometry x="100" y="260" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6XtA9i1KnXENSngNYOu7-2" value="系统配置" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-460" y="250" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6XtA9i1KnXENSngNYOu7-3" value="AI服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="650" y="250" width="120" height="60" as="geometry" />
+          <mxGeometry x="650" y="260" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6XtA9i1KnXENSngNYOu7-4" value="报告生成配置" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-200" y="220" width="100" height="50" as="geometry" />
@@ -35,10 +35,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6XtA9i1KnXENSngNYOu7-18" value="拉取所有报告配置计算报告生成时间，根据时间、子主题数量筛选出要发送给AI回答的内容（&lt;b&gt;&lt;font style=&quot;color: light-dark(rgb(231, 4, 4), rgb(237, 237, 237));&quot;&gt;确保报告的发送时间和配置的时间一致&lt;/font&gt;&lt;/b&gt;，发送给AI的时间生成回答的时间要早一些，暂定每有一个子主题就提前2分钟）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-22.5" y="-30" width="490" height="100" as="geometry" />
+          <mxGeometry x="70" y="-20" width="490" height="100" as="geometry" />
         </mxCell>
         <mxCell id="6XtA9i1KnXENSngNYOu7-19" value="根据报告id划分出子主题任务，并根据时间重新拼装提示词塞入队列（拼装的内容主要为时间，例如：子主题提示词为上周的人流数据，那么如果报告生成时间为2025年5月1日，那么最终给AI的输入应该为&lt;b&gt;&lt;font style=&quot;color: rgb(255, 20, 20);&quot;&gt;2025年5月1日上周的人流数据&lt;/font&gt;&lt;/b&gt;）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="20" y="100" width="405" height="60" as="geometry" />
+          <mxGeometry x="112.5" y="110" width="405" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6XtA9i1KnXENSngNYOu7-21" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="6XtA9i1KnXENSngNYOu7-17" target="6XtA9i1KnXENSngNYOu7-15">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -58,8 +58,8 @@
             <mxPoint x="-300" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6XtA9i1KnXENSngNYOu7-25" value="AI服务新开报告问答接口，排除控制类落域" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="860" y="320" width="280" height="60" as="geometry" />
+        <mxCell id="6XtA9i1KnXENSngNYOu7-25" value="AI服务新开报告问答接口供XXL-JOB调用，排除控制类落域" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="200" width="360" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6XtA9i1KnXENSngNYOu7-26" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="6XtA9i1KnXENSngNYOu7-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -79,7 +79,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6XtA9i1KnXENSngNYOu7-31" value="XXL-JOB" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="650" y="80" width="120" height="60" as="geometry" />
+          <mxGeometry x="650" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6XtA9i1KnXENSngNYOu7-33" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="6XtA9i1KnXENSngNYOu7-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="290" as="sourcePoint" />
+            <mxPoint x="700" y="240" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
