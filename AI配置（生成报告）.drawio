@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="26.0.15">
   <diagram name="第 1 页" id="NewQX8AB6y4kVPfyduV2">
-    <mxGraphModel dx="2514" dy="878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2514" dy="2047" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -16,10 +16,10 @@
         <mxCell id="6XtA9i1KnXENSngNYOu7-4" value="报告生成配置" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-200" y="220" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="6XtA9i1KnXENSngNYOu7-9" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="6XtA9i1KnXENSngNYOu7-1">
+        <mxCell id="6XtA9i1KnXENSngNYOu7-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6XtA9i1KnXENSngNYOu7-1" target="6XtA9i1KnXENSngNYOu7-31">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="480" y="200" as="sourcePoint" />
-            <mxPoint x="650" y="280" as="targetPoint" />
+            <mxPoint x="570" y="100" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="6XtA9i1KnXENSngNYOu7-15" value="将文本入库" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -31,14 +31,14 @@
         <mxCell id="6XtA9i1KnXENSngNYOu7-17" value="生成的每份回答，暂存到内存中，待单个报告中的所有任务都回答完成后，进行拼装操作（每个回答完毕时进行检查）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="182.5" y="320" width="500" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6XtA9i1KnXENSngNYOu7-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6XtA9i1KnXENSngNYOu7-18" target="6XtA9i1KnXENSngNYOu7-19">
+        <mxCell id="6XtA9i1KnXENSngNYOu7-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6XtA9i1KnXENSngNYOu7-18" target="6XtA9i1KnXENSngNYOu7-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6XtA9i1KnXENSngNYOu7-18" value="拉取所有报告配置计算报告生成时间，根据时间、子主题数量筛选出要发送给AI回答的内容（&lt;b&gt;&lt;font style=&quot;color: light-dark(rgb(231, 4, 4), rgb(237, 237, 237));&quot;&gt;确保报告的发送时间和配置的时间一致&lt;/font&gt;&lt;/b&gt;，发送给AI的时间生成回答的时间要早一些，暂定每有一个子主题就提前2分钟）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="187.5" y="70" width="490" height="100" as="geometry" />
+          <mxGeometry x="-22.5" y="-30" width="490" height="100" as="geometry" />
         </mxCell>
         <mxCell id="6XtA9i1KnXENSngNYOu7-19" value="根据报告id划分出子主题任务，并根据时间重新拼装提示词塞入队列（拼装的内容主要为时间，例如：子主题提示词为上周的人流数据，那么如果报告生成时间为2025年5月1日，那么最终给AI的输入应该为&lt;b&gt;&lt;font style=&quot;color: rgb(255, 20, 20);&quot;&gt;2025年5月1日上周的人流数据&lt;/font&gt;&lt;/b&gt;）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="230" y="200" width="405" height="60" as="geometry" />
+          <mxGeometry x="20" y="100" width="405" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6XtA9i1KnXENSngNYOu7-21" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="6XtA9i1KnXENSngNYOu7-17" target="6XtA9i1KnXENSngNYOu7-15">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -57,6 +57,29 @@
             <mxPoint x="-350" y="290" as="sourcePoint" />
             <mxPoint x="-300" y="240" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="6XtA9i1KnXENSngNYOu7-25" value="AI服务新开报告问答接口，排除控制类落域" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="320" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6XtA9i1KnXENSngNYOu7-26" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="6XtA9i1KnXENSngNYOu7-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="460" as="sourcePoint" />
+            <mxPoint x="420" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6XtA9i1KnXENSngNYOu7-27" value="提供接口供前端页面查询" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6XtA9i1KnXENSngNYOu7-26">
+          <mxGeometry x="-0.0851" relative="1" as="geometry">
+            <mxPoint x="-18" y="19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6XtA9i1KnXENSngNYOu7-29" value="所有配置使用通用配置表，放到一个大JSON中（规整配置且方便之后的融合事项）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-506.5" y="150" width="213" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="6XtA9i1KnXENSngNYOu7-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6XtA9i1KnXENSngNYOu7-31" target="6XtA9i1KnXENSngNYOu7-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6XtA9i1KnXENSngNYOu7-31" value="XXL-JOB" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="80" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
